@@ -59,7 +59,7 @@ function Body() {
             English
           </span>
           <input
-            type="text"
+            type="number"
             className="form-control mx-2"
             placeholder="0"
             aria-label="Username"
@@ -72,7 +72,7 @@ function Body() {
             Hindi
           </span>
           <input
-            type="text"
+            type="number"
             className="form-control mx-2"
             placeholder="0"
             aria-label="Username"
@@ -85,7 +85,7 @@ function Body() {
             Science
           </span>
           <input
-            type="text"
+            type="number"
             className="form-control mx-2"
             placeholder="0"
             aria-label="Username"
@@ -98,7 +98,7 @@ function Body() {
             History,Civics <br /> & Geography
           </span>
           <input
-            type="text"
+            type="number"
             className="form-control mx-2"
             placeholder="0"
             aria-label="Username"
@@ -112,7 +112,7 @@ function Body() {
             Subject
           </span>
           <input
-            type="text"
+            type="number"
             className="form-control mx-2"
             placeholder="0"
             aria-label="Username"
@@ -125,7 +125,7 @@ function Body() {
             Mathematics
           </span>
           <input
-            type="text"
+            type="number"
             className="form-control mx-2"
             placeholder="0"
             aria-label="Username"
