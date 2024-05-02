@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/markscalculator/static/css/main.dc4d6ff2.css",
+    "main.js": "/markscalculator/static/js/main.a9488e21.js",
+    "static/js/453.ed3810f9.chunk.js": "/markscalculator/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/markscalculator/index.html",
+    "main.dc4d6ff2.css.map": "/markscalculator/static/css/main.dc4d6ff2.css.map",
+    "main.a9488e21.js.map": "/markscalculator/static/js/main.a9488e21.js.map",
+    "453.ed3810f9.chunk.js.map": "/markscalculator/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.a9488e21.js"
+  ]
+}
