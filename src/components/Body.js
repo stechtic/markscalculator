@@ -2,6 +2,7 @@ import React from "react";
 import Disclaimer from "./Disclaimer";
 
 function Body() {
+
   const mystyle = {
     minWidth: "120px",
     minHeight: "50px",
@@ -15,18 +16,24 @@ function Body() {
     let a6 = document.getElementById("a6").value;
 
     let res = [];
-    res[0] = a1;
-    res[1] = a2;
-    res[2] = a3;
-    res[3] = a4;
-    res[4] = a5;
-    res[5] = a6;
+    res[0] = a2;
+    res[1] = a3;
+    res[2] = a4;
+    res[3] = a5;
+    res[4] = a6;
     res.sort();
     let best5 = [];
-    for (let i = 0; i < res.length - 1; i++) best5[i] = res[i + 1];
+
+    for (let i = 0; i < 4; i++) 
+    best5[i] = res[i + 1];
+
 
     var sum = 0;
-    for (let i = 0; i < best5.length; i++) sum += parseFloat(best5[i]);
+    for (let i = 0; i < 4; i++) 
+    sum += parseFloat(best5[i]);
+
+    sum = sum + parseFloat(a1);
+
 
     var per = (sum / 500.0) * 100;
     document.getElementById("go").textContent = per;
@@ -65,6 +72,7 @@ function Body() {
             aria-label="Username"
             aria-describedby="basic-addon1"
             id="a1"
+            
           />
         </div>
         <div className="input-group my-2">
