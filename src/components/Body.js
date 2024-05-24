@@ -50,7 +50,7 @@ function Body() {
       </div>
       <span className="mx-auto my-0"><Disclaimer/></span>
       <div className="text-center mx-2">
-        <h5>Enter your Percentage Marks</h5>
+        <h5>Enter Your Percentage Marks</h5>
       </div>
       <div
         className="text-center mx-2 mt-1"
