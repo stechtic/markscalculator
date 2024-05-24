@@ -24,8 +24,15 @@ function Body() {
     res.sort();
     let best5 = [];
 
+    for(let k=0;k<5;k++)
+      if(res[k]==="")
+        res[k]=0;
+
     for (let i = 0; i < 4; i++) 
     best5[i] = res[i + 1];
+
+    if(a1==="")
+      a1=0;
 
 
     var sum = 0;
